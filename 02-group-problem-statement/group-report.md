@@ -1,6 +1,6 @@
 # 02 — Group Problem Statement (Bản nộp nhóm)
 
-## Thành viên nhóm
+## Thành viên nhóm "Tối ưu xe bus"
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
 |-----|-----------|-------------|---------------------------------------------------------------|
