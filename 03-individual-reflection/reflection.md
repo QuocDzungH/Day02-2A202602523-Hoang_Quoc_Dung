@@ -32,7 +32,7 @@ Dấu tay rõ nhất của tôi là việc khởi xướng bài toán xe buýt V
 
 ---
 
-## 2. Bảng dùng AI (mỗi dòng 1 phase có dùng AI — 2 cột cuối bắt buộc)
+## 2. Bảng dùng AI
 
 | Phase | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai / hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
