@@ -4,7 +4,7 @@
 
 - Họ và tên: Hoàng Quốc Dũng
 - Mã học viên: 2A202602523
-- Nhóm: Nhóm 1 (5 thành viên: Dũng, Tiến Anh, Huy, Điềm, Sơn)
+- Nhóm: Tối ưu xe bus
 - Candidate problem nhóm chọn: Tối ưu lựa chọn và điều chỉnh cặp tuyến xe buýt thời gian thực từ VinUni (Gia Lâm) về Xuân Thủy (Cầu Giấy) nhằm giảm thiểu thời gian chờ đợi và chuyển tuyến.
 
 ---
