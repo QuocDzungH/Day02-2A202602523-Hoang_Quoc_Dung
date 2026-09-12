@@ -1,7 +1,5 @@
 # 01 — Individual Problem Scan
 
-> Điền theo Phase 1 + Phase 2 trong `01-worksheet.md`. Tự scan trước, dùng AI sau để phản biện. Không copy ví dụ Weekly Report.
-
 ## Thông tin cá nhân
 
 - Họ và tên: Hoàng Quốc Dũng

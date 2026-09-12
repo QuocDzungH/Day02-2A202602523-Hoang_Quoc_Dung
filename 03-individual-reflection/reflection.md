@@ -1,7 +1,5 @@
 # 03 — Individual Reflection
 
-> Viết bằng lời của bạn (Phase 7 trong `01-worksheet.md`). Có thể dùng AI gợi ý câu hỏi tự soi, không dùng AI viết thay. 8-12 câu, có chuyện cụ thể.
-
 ## Thông tin cá nhân
 
 - Họ và tên: Hoàng Quốc Dũng
