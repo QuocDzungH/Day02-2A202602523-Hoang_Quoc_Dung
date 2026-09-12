@@ -11,8 +11,6 @@
 
 ## 1. Tôi đã tham gia vào phần nào?
 
-Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "tham gia thảo luận".
-
 | Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
 |---|---|---|
 | Scan cá nhân | Tự rà soát lại 10 vấn đề từ cuộc sống sinh viên và học tập cá nhân, đo đếm số liệu thực tế về thời gian di chuyển buýt. | Đóng góp 3 bài toán chất lượng cao vào danh sách 15 candidates của cả nhóm. |
@@ -48,21 +46,12 @@ Dấu tay rõ nhất của tôi là việc khởi xướng bài toán xe buýt V
 
 ## 3. Reflection câu hỏi mở
 
-Chọn 3-4 câu trong 6 câu dưới để viết thành đoạn 8-12 câu (không trả lời bullet 1 dòng):
-- Tôi học được gì khi nghe top 3 problems của các bạn khác?
-- Nhóm có lúc nào bị solution-first, đòi làm Agent cho ngầu không?
-- Tôi có thay đổi ý kiến sau khi bị challenge không, vì sao đổi?
-- Tôi đóng góp gì thật sự vào artifact cuối, phần nào có dấu tay của tôi?
-- Điều khó nhất khi viết Problem Statement là gì, metric hay boundary?
-- Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở điểm nào?
+Sau buổi lab Day 02 tôi thấy cách nhìn về một vấn đề của mình đã thay đổi khá nhiều. Khi nghe top 3 problems của các bạn trong nhóm tôi nhận ra có nhiều vấn đề nghe qua thì tưởng cần dùng AI nhưng thực ra chỉ cần sửa lại quy trình hoặc dùng một script đơn giản là được. Ví dụ như việc kiểm tra repo GitHub hay tìm tài liệu học tập nếu có checklist rõ ràng thì cũng giải quyết được phần lớn rồi. Đến Phase 6 nhóm tôi cũng có lúc nghĩ đến việc dùng Agent để hệ thống tự suy luận và đưa ra quyết định vì nghe có vẻ hiện đại hơn. Nhưng sau khi thảo luận thì tôi cùng anh Huy và anh Điềm nhận thấy bài toán xe buýt cần phản hồi nhanh để người dùng còn kịp xuống trạm, nên Workflow kết hợp với Rule dự phòng sẽ hợp lý hơn. Phần khó nhất đối với tôi khi viết Problem Statement là xác định Boundary tức là hệ thống sẽ làm gì và không làm gì. Ban đầu tôi muốn hệ thống dự báo cả việc xe buýt còn chỗ trống hay không nhưng nhóm challenge rằng hiện tại chưa có dữ liệu đủ tin cậy để làm việc đó. Vì vậy tôi bỏ tính năng này để phạm vi bài toán thực tế hơn và không bị quá rộng. Đóng góp chính của tôi là đưa ra vấn đề di chuyển từ VinUni về Xuân Thủy, xây dựng workflow trước và sau  đồng thời cùng nhóm xác định bottleneck ở bước chuyển tuyến. Nếu được làm lại tôi sẽ challenge nhóm sớm hơn ở những vấn đề còn chung chung hoặc chưa có số liệu để đỡ mất thời gian trong bước hội tụ.
 
-**Reflection:**
-
-Quá trình làm việc cùng nhóm trong buổi lab Day 02 đã mang lại cho tôi những bước chuyển biến rất lớn về mặt tư duy sản phẩm. Ban đầu, khi lắng nghe 15 candidate problems của các thành viên, tôi nhận ra rất nhiều bài toán nghe qua tưởng như rất cần AI nhưng thực chất chỉ cần sửa lại quy trình hoặc dùng một script kiểm tra cố định là xong, điển hình như bài toán kiểm tra repo GitHub hay quản lý tài liệu học tập. Đã có thời điểm ở Phase 6, một vài bạn trong nhóm muốn đẩy giải pháp lên mức "Autonomous Multi-Agent" để hệ thống tự suy luận và tự đưa ra quyết định cho ngầu, đúng tinh thần công nghệ AI hiện đại. Tuy nhiên, tôi đã cùng anh Huy và anh Điềm kéo nhóm quay trở lại mặt đất: xe buýt là bài toán giao thông có tính quy chuẩn cao, người dùng cần tốc độ phản hồi tính bằng giây để kịp xuống trạm, do đó một **Workflow** dựa trên ngưỡng kích hoạt thời gian thực (Event-driven) kết hợp Rule dự phòng mới là giải pháp tối ưu, tin cậy và tiết kiệm chi phí nhất. Điều khiến tôi trăn trở và mất nhiều thời gian nhất khi hoàn thiện Problem Statement chính là việc xác định **Boundary (ranh giới làm và không làm)**. Tôi từng muốn hệ thống giải quyết cả việc dự báo xe buýt có còn ghế trống hay không, nhưng sau khi bị nhóm challenge thẳng thắn rằng hiện tại xe buýt Hà Nội hoàn toàn chưa có cảm biến đếm người thời gian thực, tôi đã dũng cảm cắt bỏ tính năng này để giữ cho phạm vi bài toán luôn trung thực và khả thi. Nếu có cơ hội làm lại từ đầu, tôi sẽ challenge các bạn mạnh tay hơn ngay từ khâu scan để loại bỏ sớm những bài toán quá rộng hoặc thiếu số liệu định lượng, giúp nhóm tiết kiệm được thêm ít nhất 20 phút hội tụ. Đóng góp lớn nhất của tôi không chỉ là đưa ra ý tưởng về tuyến xe buýt VinUni — Xuân Thủy, mà là giữ cho toàn bộ lập luận của nhóm luôn bám chặt vào nguyên tắc: *Problem first, not AI first*.
 
 ---
 
-## 4. Tự kiểm cuối bài (check trước khi nộp repo)
+## 4. Tự kiểm cuối bài
 
 - [x] [12đ] Cá nhân có 5+ problems + top 3 Problem Cards (đã có 10 problems scan + 3 Problem Cards chi tiết)
 - [x] [12đ] Tôi đã pitch rõ + challenge nhóm đúng trọng tâm (ghi ở bảng mục 1)
